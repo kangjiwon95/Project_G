@@ -23,14 +23,17 @@ public class ButtonManager : MonoBehaviour
 
     private void Start()
     {
-        //상점 캔버스 클릭
+        //상점 화면 클릭
         tradingButton.onClick.AddListener(TradingOnClick);
 
-        // 준비화면 캔버스 클릭
+        // 준비화면 클릭
         readyButton.onClick.AddListener(StartOnClick);
 
-        // 게임 씬 전환 클릭ㄴ
+        // 게임 씬 전환 클릭
         gameStartButton.onClick.AddListener(GameStartOnClick);
+
+        // 캐릭터 화면 클릭
+        charButton.onClick.AddListener(CharacterOnClick);
     }
     private void Update()
     {
@@ -43,6 +46,10 @@ public class ButtonManager : MonoBehaviour
             else if(gameStartCanvers.activeSelf)
             {
                 StartExitClick();
+            }
+            else if(charCanvers.activeSelf)
+            {
+                CharacterExitClick();
             }
         }
     }
@@ -63,11 +70,13 @@ public class ButtonManager : MonoBehaviour
     #region Character 진입과 취소
     private void CharacterOnClick()
     {
-
+        charCanvers.SetActive(true);
+        mainCanvers.SetActive(false);
     }
     private void CharacterExitClick()
     {
-
+        charCanvers.SetActive(false);
+        mainCanvers.SetActive(true);
     }
     #endregion
 
