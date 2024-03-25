@@ -20,6 +20,11 @@ public class ButtonManager : MonoBehaviour
     public Button tradingButton;
     public Button hiedoutButton;
     public Button gameStartButton;
+    public Button optionButton;
+
+    [Space(20)]
+    [Header("Canvers")]
+    public GameObject optionPanel;
 
     private void Start()
     {
@@ -50,6 +55,10 @@ public class ButtonManager : MonoBehaviour
             else if(charCanvers.activeSelf)
             {
                 CharacterExitClick();
+            }
+            else if(optionPanel.activeSelf)
+            {
+                OptionpanelExitClick();
             }
         }
     }
@@ -110,6 +119,17 @@ public class ButtonManager : MonoBehaviour
         SceneManager.LoadScene("GameScene");
         mainCanvers.SetActive(true);
         gameStartCanvers.SetActive(false);
+    }
+    #endregion
+
+    #region OptionPanel ¡¯¿‘
+    private void OptionpanelOnClick()
+    {
+        optionPanel.SetActive(true);
+    }
+    private void OptionpanelExitClick()
+    {
+        optionPanel.SetActive(false);
     }
     #endregion
 }
