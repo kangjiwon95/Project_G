@@ -54,12 +54,12 @@ ModelImporter:
       keepOriginalPositionXZ: 0
       heightFromFeet: 1
       mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      bodyMask: 01000000010000000100000001000000010000000000000000000000000000000000000001000000010000000000000000000000
       curves: []
       events: []
       transformMask: []
       maskType: 3
-      maskSource: {instanceID: 0}
+      maskSource: {fileID: 31900000, guid: 7e8c40fcada463e41b8175e7d356fa42, type: 2}
       additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:

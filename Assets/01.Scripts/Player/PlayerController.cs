@@ -1,25 +1,39 @@
 using UnityEngine;
 
-public class PlayerMove : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     CharacterController controller;
     Animator anim;
 
-    public Vector3 moveDir;
+    [Header("Move")]
+    private Vector3 moveDir;
     float speed;
-    public float moveSpeed;
-    public float crouchSpeed;
+    [SerializeField]
+    private float moveSpeed = 2f;
+    [SerializeField]
+    private float crouchSpeed = 1f;
+    [SerializeField]
+    private float sprintSpeed = 5f;
 
-    private bool isCrounch = false;
+    [Header("Crouch State")]
+    private bool isCrouch = false;
+
+    [Header("CamPos")]
+    public RotateToMouse rotateToMouse;
 
     private void Awake()
     {
         anim = GetComponent<Animator>();
         controller = GetComponent<CharacterController>();
+
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     private void Update()
     {
+        UpdateRotate();
+
         float x = Input.GetAxisRaw("Horizontal");
         float z = Input.GetAxisRaw("Vertical");
 
@@ -30,23 +44,23 @@ public class PlayerMove : MonoBehaviour
         anim.SetFloat("zDir", z);
         controller.Move(moveDir);
 
-        if (!isCrounch)
+        if (!isCrouch)
         {
             speed = moveSpeed;
             if (Input.GetKeyDown(KeyCode.LeftControl))
             {
                 anim.SetBool("isCrouch", true);
-                isCrounch = true;
+                isCrouch = true;
             }
         }
-        else if(isCrounch)
+        else if(isCrouch)
         {
             speed = crouchSpeed;
             if (Input.GetKeyDown(KeyCode.LeftControl))
             {                
                 speed = moveSpeed;
                 anim.SetBool("isCrouch", false);
-                isCrounch = false;
+                isCrouch = false;
             }
         }
 
@@ -54,6 +68,24 @@ public class PlayerMove : MonoBehaviour
         {
             anim.SetTrigger("isJump");
         }
+
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            anim.SetBool("isSprint", true);
+            speed = sprintSpeed;
+        }
+        else
+        {
+            anim.SetBool("isSprint", false);
+            speed = moveSpeed;
+        }
+    }
+
+    void UpdateRotate()
+    {
+        float mouseX = Input.GetAxis("Mouse X");
+        float mouseY = Input.GetAxis("Mouse Y");
+        rotateToMouse.CalculateRotation(mouseX, mouseY);
     }
 }
 
