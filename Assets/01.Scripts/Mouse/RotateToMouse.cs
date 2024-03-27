@@ -16,7 +16,7 @@ public class RotateToMouse : MonoBehaviour
     public void CalculateRotation(float mouseX, float mouseY)
     {
         eulerAngleY += mouseX * rotCamYAxisSpeed;
-        eulerAngleX -= mouseY * rotCamYAxisSpeed;
+        eulerAngleX -= mouseY * rotCamXAxisSpeed;
         eulerAngleX = ClampAngle(eulerAngleX, limitMinX, limitMaxX);
         transform.rotation = Quaternion.Euler(eulerAngleX, eulerAngleY, 0);
     }

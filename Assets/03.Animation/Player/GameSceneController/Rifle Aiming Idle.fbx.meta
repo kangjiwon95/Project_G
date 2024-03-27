@@ -531,237 +531,37 @@ ModelImporter:
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Military
+    - name: Backpack2
       parentName: Rifle Aiming Idle(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: CHR1_Top
+    - name: Backpack2_handle
       parentName: Rifle Aiming Idle(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: CHR2_Top
+    - name: Backpack3
       parentName: Rifle Aiming Idle(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: CHR3_Top
+    - name: BackPack3_handle
       parentName: Rifle Aiming Idle(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: CHR4_Top
+    - name: Boots3
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -1.3109196, y: 0.1434092, z: -0.2903023}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boots4
       parentName: Rifle Aiming Idle(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: CHR5_Top
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: CHR6_Top
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: CHR7_Top
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: CHR8_Top
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: CHR_Male_Bottom
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: CHR_Female_Bottom
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: CHR1_Head
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: CHR2_Head
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: CHR3_Head
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: CHR4_Head
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: CHR5_Head
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: CHR6_Head
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: CHR7_Head
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: CHR8_Head
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: CHR_Male_Hands
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: CHR_Female_Hands
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: CHR_Male_Palm_hands
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: CHR_Female_Palm_hands
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: CHR_Male_Gloves
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: CHR_Female_Gloves
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: CHR_Male_Foot
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: CHR_Female_Foot
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Helmet1
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Helmet2
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Helmet3
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Helmet3_Visor_close
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Helmet3_Visor_open
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Helmet1_Fastering
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Helmet2_fastening
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Helmet3_fastering
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Helmet1_For_goggles
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Helmet2_For_goggles
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0.004767644, z: 0.124871545}
-      rotation: {x: -0.034258224, y: 0, z: -0, w: 0.999413}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Headset1
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Headset2
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Headset3
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: NVG_disabled
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0.007952916}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: NVG_enabled
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0.007952916}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Goggles1
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: 0.00014731483, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Goggles2_for_helmet
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Goggles2_up
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0.18975966, z: 0.7628483}
-      rotation: {x: -0.21027273, y: 0, z: -0, w: 0.9776428}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Gasmask2
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: CHR_Balaclava1
+    - name: Boots5
       parentName: Rifle Aiming Idle(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
@@ -786,112 +586,327 @@ ModelImporter:
       position: {x: 0.27190694, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Pants1
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -9.292098, y: -0.9352709, z: 0.015588778}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Pants4
+    - name: CHR1_Head
       parentName: Rifle Aiming Idle(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Pants5
+    - name: CHR1_Top
       parentName: Rifle Aiming Idle(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Shirt4
+    - name: CHR2_Head
       parentName: Rifle Aiming Idle(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Shirt5
+    - name: CHR2_Top
       parentName: Rifle Aiming Idle(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Shirt6
+    - name: CHR3_Head
       parentName: Rifle Aiming Idle(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Boots3
-      parentName: Rifle Aiming Idle(Clone)
-      position: {x: -1.3109196, y: 0.1434092, z: -0.2903023}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Boots4
+    - name: CHR3_Top
       parentName: Rifle Aiming Idle(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Boots5
+    - name: CHR4_Head
       parentName: Rifle Aiming Idle(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Backpack2
+    - name: CHR4_Top
       parentName: Rifle Aiming Idle(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Backpack2_handle
+    - name: CHR5_Head
       parentName: Rifle Aiming Idle(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Backpack3
+    - name: CHR5_Top
       parentName: Rifle Aiming Idle(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: BackPack3_handle
+    - name: CHR6_Head
       parentName: Rifle Aiming Idle(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Vest1
+    - name: CHR6_Top
       parentName: Rifle Aiming Idle(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Vest1_Belt
+    - name: CHR7_Head
       parentName: Rifle Aiming Idle(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Vest2
+    - name: CHR7_Top
       parentName: Rifle Aiming Idle(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Vest2_collar
+    - name: CHR8_Head
       parentName: Rifle Aiming Idle(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Vest2_Shoulder_R
+    - name: CHR8_Top
       parentName: Rifle Aiming Idle(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Vest2_Shoulder_L
+    - name: CHR_Balaclava1
       parentName: Rifle Aiming Idle(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Vest2_Bottom
+    - name: CHR_Female_Bottom
       parentName: Rifle Aiming Idle(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Holster1_Pistol__for_Pants2_5_
+    - name: CHR_Female_Foot
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHR_Female_Gloves
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHR_Female_Hands
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHR_Female_Palm_hands
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHR_Male_Bottom
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHR_Male_Foot
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHR_Male_Gloves
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHR_Male_Hands
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CHR_Male_Palm_hands
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Decals
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Decal_Arab
+      parentName: Decals
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Decal_Carabin
+      parentName: Decals
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Decal_China
+      parentName: Decals
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Decal_FBI
+      parentName: Decals
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Decal_FSB
+      parentName: Decals
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Decal_Gendarm
+      parentName: Decals
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Decal_India
+      parentName: Decals
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Decal_Medic
+      parentName: Decals
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Decal_Police
+      parentName: Decals
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Decal_Policia
+      parentName: Decals
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Decal_Polis
+      parentName: Decals
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Decal_Polisi
+      parentName: Decals
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Decal_Polizei
+      parentName: Decals
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Decal_Polizia
+      parentName: Decals
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Decal_PRESS
+      parentName: Decals
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Decal_Rus
+      parentName: Decals
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Decal_Skull
+      parentName: Decals
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Decal_UN
+      parentName: Decals
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gasmask2
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goggles1
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: 0.00014731483, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goggles2_for_helmet
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goggles2_up
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0.18975966, z: 0.7628483}
+      rotation: {x: -0.21027273, y: 0, z: -0, w: 0.9776428}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Headset1
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Headset2
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Headset3
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Helmet1
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Helmet1_Fastering
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Helmet1_For_goggles
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Helmet2
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Helmet2_fastening
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Helmet2_For_goggles
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0.004767644, z: 0.124871545}
+      rotation: {x: -0.034258224, y: 0, z: -0, w: 0.999413}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Helmet3
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Helmet3_fastering
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Helmet3_Visor_close
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Helmet3_Visor_open
       parentName: Rifle Aiming Idle(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Holster1_empty
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Holster1_Pistol__for_Pants2_5_
       parentName: Rifle Aiming Idle(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
@@ -904,6 +919,21 @@ ModelImporter:
     - name: Kneepad1_Right
       parentName: Rifle Aiming Idle(Clone)
       position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Military
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NVG_disabled
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0.007952916}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NVG_enabled
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0.007952916}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Outfits
@@ -956,98 +986,18 @@ ModelImporter:
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Decals
+    - name: Pants1
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -9.292098, y: -0.9352709, z: 0.015588778}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pants4
       parentName: Rifle Aiming Idle(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Decal_Skull
-      parentName: Decals
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Decal_Polisi
-      parentName: Decals
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Decal_Medic
-      parentName: Decals
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Decal_Rus
-      parentName: Decals
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Decal_Gendarm
-      parentName: Decals
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Decal_PRESS
-      parentName: Decals
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Decal_Polizia
-      parentName: Decals
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Decal_FSB
-      parentName: Decals
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Decal_Arab
-      parentName: Decals
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Decal_FBI
-      parentName: Decals
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Decal_India
-      parentName: Decals
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Decal_Carabin
-      parentName: Decals
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Decal_Policia
-      parentName: Decals
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Decal_China
-      parentName: Decals
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Decal_UN
-      parentName: Decals
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Decal_Polizei
-      parentName: Decals
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Decal_Polis
-      parentName: Decals
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Decal_Police
-      parentName: Decals
+    - name: Pants5
+      parentName: Rifle Aiming Idle(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
@@ -1056,27 +1006,12 @@ ModelImporter:
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Radio7
+    - name: Head_Wire
       parentName: Radio
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Radio6
-      parentName: Radio
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Radio5
-      parentName: Radio
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Radio4
-      parentName: Radio
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Radio3
+      position: {x: 0.26179358, y: 0.27491397, z: 0.028672993}
+      rotation: {x: 0, y: 0, z: 0.060911585, w: 0.9981432}
+      scale: {x: 1, y: 1.4010892, z: 1}
+    - name: Radio1
       parentName: Radio
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
@@ -1086,16 +1021,31 @@ ModelImporter:
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Radio1
+    - name: Radio3
       parentName: Radio
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Head_Wire
+    - name: Radio4
       parentName: Radio
-      position: {x: 0.26179358, y: 0.27491397, z: 0.028672993}
-      rotation: {x: 0, y: 0, z: 0.060911585, w: 0.9981432}
-      scale: {x: 1, y: 1.4010892, z: 1}
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Radio5
+      parentName: Radio
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Radio6
+      parentName: Radio
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Radio7
+      parentName: Radio
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     - name: root
       parentName: Rifle Aiming Idle(Clone)
       position: {x: 0.000000074505806, y: -0.011815719, z: 0.0053003132}
@@ -1106,66 +1056,6 @@ ModelImporter:
       position: {x: -0.000000001131717, y: 0.010561501, z: 0.96750593}
       rotation: {x: 0.0012955068, y: 0.7071056, z: 0.0012885331, w: 0.7071057}
       scale: {x: 1.0000129, y: 1.000013, z: 1.0000129}
-    - name: thigh_l
-      parentName: pelvis
-      position: {x: 0.014488144, y: -0.0053142332, z: -0.09005809}
-      rotation: {x: 0.073704906, y: 0.062138878, z: 0.008584489, w: 0.99530536}
-      scale: {x: 1.0000019, y: 1.0000025, z: 0.9999998}
-    - name: calf_l
-      parentName: thigh_l
-      position: {x: 0.42572036, y: 0.0000000047683715, z: 0.000000019073486}
-      rotation: {x: -0.04888411, y: -0.018863808, z: 0.06552242, w: 0.99647444}
-      scale: {x: 1.000003, y: 1.0000019, z: 1.0000044}
-    - name: calf_twist_01_l
-      parentName: calf_l
-      position: {x: 0.20476784, y: -0.000000009536743, z: 3.907985e-16}
-      rotation: {x: 0.0028086638, y: 0.0019335409, z: 0.007612803, w: 0.9999652}
-      scale: {x: 1.0000005, y: 1.0000005, z: 0.9999998}
-    - name: foot_l
-      parentName: calf_l
-      position: {x: 0.40196696, y: -0.000000009536743, z: 7.105427e-17}
-      rotation: {x: -0.005886144, y: -0.031991478, z: -0.070355214, w: 0.9969915}
-      scale: {x: 1.000003, y: 1.0000044, z: 1.0000019}
-    - name: ball_l
-      parentName: foot_l
-      position: {x: 0.10453838, y: -0.16577852, z: 0.00080156326}
-      rotation: {x: 0.00008013563, y: -0.000029407434, z: 0.7186336, w: 0.6953889}
-      scale: {x: 1, y: 0.99999875, z: 1.0000002}
-    - name: thigh_twist_01_l
-      parentName: thigh_l
-      position: {x: 0.2209423, y: -5.9604643e-10, z: 0.000000019073486}
-      rotation: {x: 0.04744349, y: 0.000021625305, z: -0.000491151, w: -0.99887383}
-      scale: {x: 1.0000043, y: 0.9999996, z: 1.0000029}
-    - name: thigh_r
-      parentName: pelvis
-      position: {x: 0.014486313, y: -0.0053142738, z: 0.090058036}
-      rotation: {x: -0.06213883, y: 0.073705, z: 0.99530536, w: -0.008584711}
-      scale: {x: 1.0000058, y: 1.000006, z: 1.0000066}
-    - name: calf_r
-      parentName: thigh_r
-      position: {x: -0.4257226, y: -0.0000000166893, z: 1.2434498e-15}
-      rotation: {x: -0.04888413, y: -0.018863821, z: 0.065522455, w: 0.99647444}
-      scale: {x: 1.000003, y: 1.0000027, z: 1.0000039}
-    - name: calf_twist_01_r
-      parentName: calf_r
-      position: {x: -0.20476907, y: -5.3290704e-17, z: -1.0658141e-16}
-      rotation: {x: 0.0028069501, y: 0.0019335428, z: 0.0076125804, w: 0.9999653}
-      scale: {x: 1.0000018, y: 1.0000017, z: 1.0000017}
-    - name: foot_r
-      parentName: calf_r
-      position: {x: -0.40196815, y: 0.000000009536743, z: -0.000000114440915}
-      rotation: {x: -0.005886088, y: -0.031991426, z: -0.07035528, w: 0.9969915}
-      scale: {x: 1, y: 1, z: 0.9999996}
-    - name: ball_r
-      parentName: foot_r
-      position: {x: -0.10453817, y: 0.16577797, z: -0.0008016014}
-      rotation: {x: 0.0000800113, y: -0.000029483803, z: 0.7186338, w: 0.69538873}
-      scale: {x: 1.0000007, y: 1.000002, z: 1.0000017}
-    - name: thigh_twist_01_r
-      parentName: thigh_r
-      position: {x: -0.22094253, y: -5.960466e-10, z: -3.5527136e-17}
-      rotation: {x: -0.04744528, y: -0.000021753478, z: 0.0004911284, w: 0.9988738}
-      scale: {x: 1.0000012, y: 1.0000001, z: 1.0000035}
     - name: spine_01
       parentName: pelvis
       position: {x: -0.10808891, y: -0.008514151, z: -3.640031e-14}
@@ -1174,12 +1064,12 @@ ModelImporter:
     - name: spine_02
       parentName: spine_01
       position: {x: -0.18875358, y: 0.03801159, z: 5.966467e-10}
-      rotation: {x: -0.0000000052241114, y: -0.00000015265219, z: 0.122419536, w: -0.99247843}
+      rotation: {x: -0.000000005224112, y: -0.0000001526522, z: 0.12241954, w: -0.9924785}
       scale: {x: 1.0000079, y: 1.0000155, z: 1.0000091}
     - name: spine_03
       parentName: spine_02
       position: {x: -0.13407348, y: 0.0042047785, z: 7.2759575e-14}
-      rotation: {x: 0.000000052206772, y: -0.000000055583435, z: -0.024252618, w: 0.99970585}
+      rotation: {x: 0.000000052206776, y: -0.00000005558344, z: -0.02425262, w: 0.9997059}
       scale: {x: 1.0000224, y: 1.0000172, z: 1.0000144}
     - name: clavicle_l
       parentName: spine_03
@@ -1224,7 +1114,7 @@ ModelImporter:
     - name: middle_02_l
       parentName: middle_01_l
       position: {x: -0.046403732, y: 0.00000015258789, z: -0.000000038146972}
-      rotation: {x: -0.018725159, y: -0.002832623, z: -0.038118847, w: 0.9990937}
+      rotation: {x: -0.01872516, y: -0.002832623, z: -0.03811885, w: 0.9990937}
       scale: {x: 1.000021, y: 0.9999705, z: 1.0000196}
     - name: middle_03_l
       parentName: middle_02_l
@@ -1269,7 +1159,7 @@ ModelImporter:
     - name: thumb_02_l
       parentName: thumb_01_l
       position: {x: -0.038696747, y: -3.5527135e-16, z: 0.000000076293944}
-      rotation: {x: 0.002635954, y: -0.019825831, z: -0.029758418, w: 0.999357}
+      rotation: {x: 0.0026359542, y: -0.019825831, z: -0.02975842, w: 0.999357}
       scale: {x: 0.99991965, y: 1.0000396, z: 1.0000439}
     - name: thumb_03_l
       parentName: thumb_02_l
@@ -1289,12 +1179,12 @@ ModelImporter:
     - name: clavicle_r
       parentName: spine_03
       position: {x: -0.11883804, y: -0.027321033, z: 0.037820026}
-      rotation: {x: -0.726277, y: -0.15406698, z: -0.6665855, w: -0.06670142}
+      rotation: {x: -0.72627693, y: -0.15406696, z: -0.66658545, w: -0.06670141}
       scale: {x: 0.99999374, y: 1.0000021, z: 0.9999843}
     - name: upperarm_r
       parentName: clavicle_r
       position: {x: 0.15784794, y: -0.000000069737396, z: -0.00000015258789}
-      rotation: {x: 0.05996084, y: 0.037412897, z: 0.1513111, w: 0.9859563}
+      rotation: {x: 0.059960842, y: 0.0374129, z: 0.15131111, w: 0.9859564}
       scale: {x: 0.99998194, y: 0.99980223, z: 1.0002625}
     - name: lowerarm_r
       parentName: upperarm_r
@@ -1319,7 +1209,7 @@ ModelImporter:
     - name: index_03_r
       parentName: index_02_r
       position: {x: 0.033937987, y: 0.0000012207031, z: -0.000000095367426}
-      rotation: {x: 0.010610817, y: -0.007851097, z: 0.08285505, w: 0.99647415}
+      rotation: {x: 0.010610818, y: -0.007851098, z: 0.08285506, w: 0.9964742}
       scale: {x: 1.0000178, y: 0.9999995, z: 0.99998}
     - name: middle_01_r
       parentName: hand_r
@@ -1329,12 +1219,12 @@ ModelImporter:
     - name: middle_02_r
       parentName: middle_01_r
       position: {x: 0.046405677, y: -0.000001373291, z: 0.0000000667572}
-      rotation: {x: -0.018725473, y: -0.0028353373, z: -0.038140133, w: 0.9990929}
+      rotation: {x: -0.018725475, y: -0.0028353375, z: -0.038140137, w: 0.99909294}
       scale: {x: 1.0000216, y: 0.9999661, z: 1.0000193}
     - name: middle_03_r
       parentName: middle_02_r
       position: {x: 0.036489103, y: 0.0000003814697, z: -0.000000038146972}
-      rotation: {x: 0.001622015, y: 0.0388669, z: 0.13362418, w: 0.9902683}
+      rotation: {x: 0.0016220151, y: 0.0388669, z: 0.1336242, w: 0.9902683}
       scale: {x: 0.99994355, y: 1.0000441, z: 1.0000113}
     - name: pinky_01_r
       parentName: hand_r
@@ -1344,7 +1234,7 @@ ModelImporter:
     - name: pinky_02_r
       parentName: pinky_01_r
       position: {x: 0.03571045, y: -0.0000009155273, z: -0.0000000667572}
-      rotation: {x: 0.010401481, y: 0.0041360757, z: -0.0385388, w: 0.9991944}
+      rotation: {x: 0.010401482, y: 0.004136076, z: -0.038538802, w: 0.99919444}
       scale: {x: 1.000039, y: 0.9999615, z: 0.9999992}
     - name: pinky_03_r
       parentName: pinky_02_r
@@ -1401,6 +1291,116 @@ ModelImporter:
       position: {x: -0.09283615, y: 0.0036416245, z: -3.1121413e-14}
       rotation: {x: 0.000000024952897, y: 0.000000025766852, z: 0.13354205, w: -0.9910432}
       scale: {x: 1.0000222, y: 1.0000038, z: 1.0000116}
+    - name: thigh_l
+      parentName: pelvis
+      position: {x: 0.014488144, y: -0.0053142332, z: -0.09005809}
+      rotation: {x: 0.073704906, y: 0.062138878, z: 0.008584489, w: 0.99530536}
+      scale: {x: 1.0000019, y: 1.0000025, z: 0.9999998}
+    - name: calf_l
+      parentName: thigh_l
+      position: {x: 0.42572036, y: 0.0000000047683715, z: 0.000000019073486}
+      rotation: {x: -0.04888411, y: -0.018863808, z: 0.06552242, w: 0.99647444}
+      scale: {x: 1.000003, y: 1.0000019, z: 1.0000044}
+    - name: calf_twist_01_l
+      parentName: calf_l
+      position: {x: 0.20476784, y: -0.000000009536743, z: 3.907985e-16}
+      rotation: {x: 0.002808664, y: 0.001933541, z: 0.0076128035, w: 0.99996525}
+      scale: {x: 1.0000005, y: 1.0000005, z: 0.9999998}
+    - name: foot_l
+      parentName: calf_l
+      position: {x: 0.40196696, y: -0.000000009536743, z: 7.105427e-17}
+      rotation: {x: -0.005886144, y: -0.031991478, z: -0.070355214, w: 0.9969915}
+      scale: {x: 1.000003, y: 1.0000044, z: 1.0000019}
+    - name: ball_l
+      parentName: foot_l
+      position: {x: 0.10453838, y: -0.16577852, z: 0.00080156326}
+      rotation: {x: 0.00008013563, y: -0.000029407434, z: 0.7186336, w: 0.6953889}
+      scale: {x: 1, y: 0.99999875, z: 1.0000002}
+    - name: thigh_twist_01_l
+      parentName: thigh_l
+      position: {x: 0.2209423, y: -5.9604643e-10, z: 0.000000019073486}
+      rotation: {x: 0.04744349, y: 0.000021625305, z: -0.000491151, w: -0.99887383}
+      scale: {x: 1.0000043, y: 0.9999996, z: 1.0000029}
+    - name: thigh_r
+      parentName: pelvis
+      position: {x: 0.014486313, y: -0.0053142738, z: 0.090058036}
+      rotation: {x: -0.06213883, y: 0.073705, z: 0.99530536, w: -0.008584711}
+      scale: {x: 1.0000058, y: 1.000006, z: 1.0000066}
+    - name: calf_r
+      parentName: thigh_r
+      position: {x: -0.4257226, y: -0.0000000166893, z: 1.2434498e-15}
+      rotation: {x: -0.04888413, y: -0.018863821, z: 0.065522455, w: 0.99647444}
+      scale: {x: 1.000003, y: 1.0000027, z: 1.0000039}
+    - name: calf_twist_01_r
+      parentName: calf_r
+      position: {x: -0.20476907, y: -5.3290704e-17, z: -1.0658141e-16}
+      rotation: {x: 0.0028069501, y: 0.0019335428, z: 0.0076125804, w: 0.9999653}
+      scale: {x: 1.0000018, y: 1.0000017, z: 1.0000017}
+    - name: foot_r
+      parentName: calf_r
+      position: {x: -0.40196815, y: 0.000000009536743, z: -0.000000114440915}
+      rotation: {x: -0.005886088, y: -0.031991426, z: -0.07035528, w: 0.9969915}
+      scale: {x: 1, y: 1, z: 0.9999996}
+    - name: ball_r
+      parentName: foot_r
+      position: {x: -0.10453817, y: 0.16577797, z: -0.0008016014}
+      rotation: {x: 0.0000800113, y: -0.000029483803, z: 0.7186338, w: 0.69538873}
+      scale: {x: 1.0000007, y: 1.000002, z: 1.0000017}
+    - name: thigh_twist_01_r
+      parentName: thigh_r
+      position: {x: -0.22094253, y: -5.960466e-10, z: -3.5527136e-17}
+      rotation: {x: -0.04744528, y: -0.000021753478, z: 0.0004911284, w: 0.9988738}
+      scale: {x: 1.0000012, y: 1.0000001, z: 1.0000035}
+    - name: Shirt4
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shirt5
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shirt6
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vest1
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vest1_Belt
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vest2
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vest2_Bottom
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vest2_collar
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vest2_Shoulder_L
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vest2_Shoulder_R
+      parentName: Rifle Aiming Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
