@@ -1,10 +1,14 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
+    #region 플레이어의 Component
     CharacterController controller;
     Animator anim;
+    #endregion
 
+    #region 움직임 관련 변수선언
     [Header("Move")]
     private Vector3 moveDir;
     [SerializeField]
@@ -17,21 +21,48 @@ public class PlayerController : MonoBehaviour
     private float sprintSpeed = 5f;
     [SerializeField]
     private float proneSpeed = 0.5f;
+    [SerializeField]
+    private float gravity = 5f;
+    [SerializeField]
+    private float jumpPower = 8f;
+    #endregion
 
+    #region 플레이어의 Stemina 작용
+    [Header("Stamina")]
+    public Image steminaUI;
+    [SerializeField]
+    float maxStemina = 100;
+    [SerializeField]
+    float curStemina;
+    [SerializeField]
+    float sprintUse = 2;
+    [SerializeField]
+    float jumpUse = 10;
+    [SerializeField]
+    float recoveryIdle = 1;
+    [SerializeField]
+    float recoveryMove = 0.5f;
+    #endregion
+
+    #region 플레이어의 상태 bool체크
     [Header("Bool State")]
     private bool isMove = false;
     private bool isCrouch = false;
     private bool isProne = false;
     private bool isSprint = false;
+    private bool isJump = false;
+    #endregion
 
+    // TODO : 플레이어의 움직임 안에서 시야 움직임 수정
     [Header("CamPos")]
     public RotateToMouse rotateToMouse;
 
     [Header("MoveX,Z")]
     float x;
     float z;
+    //
 
-
+    #region Awake,Start 함수
     private void Awake()
     {
         anim = GetComponent<Animator>();
@@ -43,6 +74,15 @@ public class PlayerController : MonoBehaviour
         isMove = true;
     }
 
+    private void Start()
+    {
+        maxStemina = 100f;
+        curStemina = maxStemina;
+        steminaUI.fillAmount = maxStemina / curStemina;
+    }
+    #endregion
+
+    #region Update 함수
     private void Update()
     {
         // 마우스 움직임에 화면변화
@@ -54,6 +94,7 @@ public class PlayerController : MonoBehaviour
 
         moveDir = new Vector3(x, 0, z).normalized * Time.deltaTime * speed;
 
+        Gravity();
 
         anim.SetFloat("xDir", x);
         anim.SetFloat("zDir", z);
@@ -69,13 +110,21 @@ public class PlayerController : MonoBehaviour
         Prone();
 
         // 활동적인 상태
-        Activity();
+        if (curStemina > 0)
+        {
+            Activity();
+        }
+        if(controller.isGrounded)
+        {
+            isJump = false;
+        }
 
-        if(isCrouch) speed = crouchSpeed;
-        if(isProne) speed = proneSpeed;
-        if(isSprint) speed = sprintSpeed;
-        if(isMove) speed = moveSpeed;
+        if (isCrouch) speed = crouchSpeed;
+        if (isProne) speed = proneSpeed;
+        if (isSprint) speed = sprintSpeed;
+        if (isMove) speed = moveSpeed;
     }
+    #endregion
 
     #region 임시 마우스로 화면 전환
     private void UpdateRotate()
@@ -115,6 +164,7 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+
     #endregion
 
     #region 엎드리는 상태 변환
@@ -144,17 +194,28 @@ public class PlayerController : MonoBehaviour
     #region 활동적인 움직임 상태 변환
     private void Activity()
     {
-        if (isMove || isSprint)
+        if ((isMove || isSprint) && controller.isGrounded)
         {
             if (Input.GetButtonDown("Jump"))
             {
+                if (isSprint)
+                {
+                    print("달리기 점프");
+                    moveDir.y += jumpPower * 2f;
+                    moveDir += transform.forward * jumpPower * 2f;
+                }
+                else
+                {
+                    moveDir.y += jumpPower;
+                }
+                isJump = true;
                 anim.SetTrigger("isJump");
             }
         }
 
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
-            if(z > 0 && isMove)
+            if (z > 0 && isMove)
             {
                 isSprint = true;
                 isMove = false;
@@ -173,6 +234,34 @@ public class PlayerController : MonoBehaviour
             isMove = true;
             anim.SetBool("isSprint", false);
         }
+    }
+    #endregion
+
+    #region 중력 적용
+    private void Gravity()
+    {
+        if (!controller.isGrounded)
+        {
+            moveDir.y -= gravity * Time.deltaTime;
+        }
+    }
+    #endregion
+
+    #region Stemina 함수
+    /// <summary>
+    /// 특정 행동마다 회복량 다르게 설정
+    /// </summary>
+    /// <param name="recovery"></param>
+    private void SteminaRecovery(float recovery)
+    {
+        curStemina += recovery;
+        steminaUI.fillAmount = maxStemina / curStemina;
+    }
+
+    private void UseStemina(float Use)
+    {
+        curStemina-= Use;
+        steminaUI.fillAmount = maxStemina / curStemina;
     }
     #endregion
 }
